@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Playfair+Display:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --dred: #ff5c58;
+  --lred: #ff5959;
+  --yellow: #ffe400;
+  --vdblue: #064663;
+  --dblue: #22577e;
+  --dlblue: #548cff;
+  --lblue: #d6e5fa;
+  --orange: #ff7f3f;
+  --pink: #ff5da2;
+  --pink: 334, 100%, 68%;
+
+  --mouse: #94daff;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.flex {
+  display: flex;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.column {
+  flex-direction: column;
+}
+.space-btw {
+  justify-content: space-between;
+}
+.space-arnd {
+  justify-content: space-around;
+}
+.space-evn {
+  justify-content: space-evenly;
+}
+
+.heading-1 {
+  font-size: 3rem;
+}
+.heading-2 {
+  font-size: 2rem;
+}
+
+.fs-big {
+  font-size: 3.8rem;
+}
+.fs-med {
+  font-size: 2rem;
+}
+.fs-small {
+  font-size: 1.5rem;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+
+.txt-red {
+  color: var(--lred);
+}
+.txt-lblue {
+  color: var(--lblue);
+}
+.txt-dblue {
+  color: var(--lblue);
+}
+.txt-vdblue {
+  color: var(--vdblue);
+}
+.txt-yellow {
+  color: var(--yellow);
+}
+.txt-orange {
+  color: var(--orange);
+}
+.txt-pink {
+  color: hsl(var(--pink));
+}
+
+.bg-red {
+  background-color: var(--dred);
+}
+.bg-yellow {
+  background-color: var(--yelllow);
+}
+.bg-lred {
+  background-color: var(--lred);
+}
+
+.ff-nn {
+  font-family: "Nunito", sans-serif;
+}
+.ff-pf {
+  font-family: "Playfair Display", serif;
+}
+
+.para {
+  font-size: 1.5rem;
+}
+.vh-100 {
+  height: 100vh;
+}
+.border {
+  outline: 4px solid black;
+}
+section {
+  height: 100vh;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

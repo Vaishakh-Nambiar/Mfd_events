@@ -1,0 +1,278 @@
+/* ---------------------- */
+nav {
+  padding: 0.5rem;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  display: block;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding-inline: 2rem;
+  width: 50%;
+}
+.logo {
+  margin-inline: 2rem;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+main {
+  padding-inline: 3rem;
+}
+.landing {
+  position: relative;
+}
+.circle {
+  height: max(80vh, 50vh);
+  width: max(50vh, 80vh);
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  /* position: absolute; */
+  margin: 4rem 2rem;
+  position: relative;
+}
+
+.land-circle {
+  transform: translateY(4rem);
+}
+
+.land-circle img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  margin-inline: 2rem;
+}
+
+.box-info {
+  height: 400px;
+  z-index: 5;
+  margin: 3rem 2rem;
+  padding-inline: 1.5rem;
+  align-self: flex-end;
+  text-align: start;
+  flex-direction: column;
+}
+.num {
+  font-weight: 900;
+}
+
+.land-head {
+  position: absolute;
+  padding-inline: 1.5rem;
+  width: 800px;
+  top: -4.5rem;
+  font-size: 4rem;
+  font-family: "Abril Fatface", cursive;
+}
+.left-info span {
+  position: relative;
+}
+
+.left-info span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ff7f3f;
+  bottom: -2px;
+  width: 50%;
+  height: 2px;
+  border-radius: 10px;
+}
+
+/* -------------------------- */
+.intro {
+  flex-basis: 1fr 1fr;
+  /* overflow: hidden; */
+}
+.intro p {
+  margin-block: 1.5rem;
+  font-size: 1.3rem;
+}
+.intro-left,
+.intro-right {
+  max-width: 40%;
+  max-height: max(50vh, 85%);
+  padding: 2rem;
+  margin: 2rem;
+  position: relative;
+}
+.intro-left {
+  background-color: white;
+  border-radius: 10px;
+}
+.intro-right {
+  height: 90%;
+}
+.intro video {
+  height: 60%;
+  width: 60%;
+  margin: 0;
+  object-fit: contain;
+}
+.intro-right video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.intro-circle {
+  background-color: #fdd2bf;
+  position: absolute;
+  left: clamp(-5rem, -10rem, 15rem);
+}
+
+.book-now {
+  border-radius: 5px;
+  color: black;
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ff5959;
+  transition: ease-out 0.4s;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.slide_down:hover {
+  color: white;
+  box-shadow: inset 0 100px 0 0 #ff5959;
+}
+
+/* -------------------- */
+.timetable p {
+  margin: 2rem;
+  text-align: center;
+  width: clamp(50%, 60%, 70%);
+}
+.t-table {
+  flex-basis: 1fr 2fr;
+}
+
+.opt .active {
+  background-color: #ff2626;
+}
+
+.opt div {
+  padding: 2rem;
+  color: white;
+  background-color: var(--lred);
+  flex: 1;
+  cursor: pointer;
+}
+.content {
+  /* padding: 2rem; */
+  width: 50vw;
+  flex: 1;
+  align-items: flex-start;
+  padding-inline: 1.5rem;
+}
+.t-cont {
+  position: relative;
+  width: 100%;
+}
+.t-cont div {
+  margin-right: clamp(2.5rem, 3.5rem, 4.5rem);
+}
+.t-cont::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--dblue);
+}
+.t-cont {
+  font-size: 1.2rem;
+}
+/* ---------------------- */
+.art-left {
+  height: 80vh;
+  width: 50%;
+}
+.art-left,
+.art-right {
+  max-width: 80%;
+  margin: 1.5rem;
+}
+
+.art-right ul {
+  list-style: none;
+  margin: 1.5rem 0.5rem;
+  font-size: 1.8rem;
+}
+.art-right ul li {
+  margin-right: 3rem;
+}
+
+.art-right {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+}
+.art-right p {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 1.3rem;
+}
+.intro video,
+.artist video {
+  height: 70%;
+  width: 50%;
+  margin: 1rem;
+  object-fit: contain;
+}
+footer {
+  padding: 2rem;
+}
+.foot-up {
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #fdece3;
+}
+.foot-text {
+  height: 80%;
+  width: 80%;
+  margin: 1.5rem;
+}
+.foot-text .book-now {
+  margin-block: 1.5rem;
+}
+.foot-down {
+  height: 20vh;
+  width: 100%;
+  margin-block: 2rem;
+}
+.foot-down .logo {
+  height: 5rem;
+  width: 5rem;
+}
+.foot-down .logo span {
+  text-align: center;
+}
+.foot-down .logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.foot-socials {
+  padding: 0.5rem 2rem;
+}
+.foot-socials i {
+  margin-inline: 1.5rem;
+}
